@@ -92,5 +92,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
+    // чет совсем забыл что нужно было все верстать в другой ветке
+    ща попробуем закомитить
 
 </androidx.constraintlayout.widget.ConstraintLayout>
