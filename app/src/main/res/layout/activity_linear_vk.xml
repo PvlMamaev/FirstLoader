@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/back_icon"
+        android:scaleType="centerInside"
+        android:layout_gravity="start"
+        android:backgroundTint="#FFFFFF"
+        android:layout_margin="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/vk_icon"
+        android:layout_gravity="center"
+        android:layout_weight="20"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Email или телефон"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_weight="9"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_email_shape"
+        android:paddingHorizontal="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Пароль"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="15dp"
+        android:inputType="textPassword"
+        android:layout_weight="9"
+        android:layout_gravity="center"
+        android:background="@drawable/eddittext_password_shape"
+        android:paddingHorizontal="15dp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Войти"
+        android:layout_marginHorizontal="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:layout_weight="8"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Войти через Facebook"
+        android:textColor="@color/black"
+        app:icon="@drawable/facebook_logo_clipart_small_1"
+        app:iconTint="@null"
+        app:iconSize="45dp" />
+
+</LinearLayout>

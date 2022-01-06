@@ -21,19 +21,20 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:text="Войти с Яндекс ID"
-        android:textSize="22dp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
         android:layout_marginTop="80dp"
         android:hint="Телефон или почта"
         android:textColorHint="#CFCFCF"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -53,14 +54,15 @@
         android:layout_height="wrap_content"
         android:text="Не помню"
         android:textColor="#0D5791"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/editText3"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
         android:layout_marginTop="70dp"
         android:backgroundTint="#FFDB29"
         android:text="Войти"
@@ -72,8 +74,9 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
         android:layout_marginTop="5dp"
         android:backgroundTint="#FFFFFF"
         android:text="Создать ID"
